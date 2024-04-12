@@ -9,7 +9,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-api_key = "AIzaSyBRq0lBBzedI2d1aDt6ESBGN3hNrFzmLeE"
+
+api_key = os.getenv("GOOGLE_API_KEY")
 
 root = CTk()
 root.geometry("1650x500")
