@@ -35,7 +35,7 @@ Server - A server is also created to allow the user of these 3 agents to communi
     ```
 5. Create a file in the same directory with name **.env**
     ```
-    api_key = "your api key" //google's gemini api key
+    GOOGLE_API_KEY = "your api key" //google's gemini api key
     ```
 6. Run the **server.py**
 7. Now run the other files & ask the questions related to goal of the AI Agent
